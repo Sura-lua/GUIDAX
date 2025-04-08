@@ -4774,12 +4774,12 @@ local aa = {
         local aa, ab, ac, ad, ae = b(54)
         return {
             Name = 'DaxonHub',
-            Accent = Color3.fromRGB(255, 215, 0), -- เหลืองทอง
+            Accent = Color3.fromRGB(0, 0, 0), -- เหลืองทอง
             AcrylicMain = Color3.fromRGB(20, 20, 20), -- ดำเข้ม
             AcrylicBorder = Color3.fromRGB(50, 50, 50), -- เทาเข้ม
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 230, 100), Color3.fromRGB(200, 180, 50)), -- เหลืองไล่โทน
             AcrylicNoise = 0.92,
-            TitleBarLine = Color3.fromRGB(255, 215, 0), -- เหลืองทอง
+            TitleBarLine = Color3.fromRGB(0, 0, 0), -- เหลืองทอง
             Tab = Color3.fromRGB(40, 40, 40), -- เทาเข้ม
             Element = Color3.fromRGB(255, 230, 100), -- เหลืองอ่อน
             ElementBorder = Color3.fromRGB(180, 180, 180), -- เทากลาง
@@ -4804,8 +4804,8 @@ local aa = {
             DialogBorder = Color3.fromRGB(90, 90, 90),
             DialogInput = Color3.fromRGB(255, 240, 120),
             DialogInputLine = Color3.fromRGB(255, 255, 200),
-            Text = Color3.fromRGB(255, 255, 255), -- ขาว
-            SubText = Color3.fromRGB(200, 200, 200), -- เทาอ่อน
+            Text = Color3.fromRGB(0, 0, 0), -- ขาว
+            SubText = Color3.fromRGB(51, 51, 51), -- เทาอ่อน
             Hover = Color3.fromRGB(255, 255, 255),
             HoverChange = 0.04
         }
